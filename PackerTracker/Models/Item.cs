@@ -35,9 +35,10 @@ namespace PackerTracker.Models
 
     public static void DeleteItem(int index)
     {
-      _instances.Remove(_instances[index]);
+      _instances.Remove(_instances[index-1]);
+      // Item.Id = _instances.Count;
     }    
-    
+
     public static Item Find(int searchId)
     {
       return _instances[searchId-1];

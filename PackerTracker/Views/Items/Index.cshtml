@@ -11,10 +11,11 @@
  @foreach (Item item in Model)
  {
    <li><a href= '/items/@item.Id'>@item.Name</a></li>
+   <p> ID = @item.Id </p>
    <!-- <button type="submit" name="/items/@item.Id"> Delete </button> -->
 
-   <form action="/items/delete/{id}" method="post">
-  <button type="submit" name="button">Delete</button>
+   <form action="/items/@item.Id/deleteitem" method="post">
+  <button type="submit" >Delete</button>
   </form>
  }
 </ul>

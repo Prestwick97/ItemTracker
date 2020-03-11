@@ -40,7 +40,7 @@ namespace PackerTracker.Controllers
       return View(foundItem);
     }
       
-    [HttpPost("/items/delete/{id}")]
+    [HttpPost("/items/{id}/deleteitem")]
     public ActionResult Destroy(int id)
     {
       Item.DeleteItem(id);
