@@ -1,0 +1,4 @@
+/Users/Guest/Desktop/PackerTracker.Solution/PackerTracker.Tests/obj/Debug/netcoreapp2.2/PackerTracker.Tests.csprojAssemblyReference.cache
+/Users/Guest/Desktop/PackerTracker.Solution/PackerTracker.Tests/obj/Debug/netcoreapp2.2/PackerTracker.Tests.csproj.CoreCompileInputs.cache
+/Users/Guest/Desktop/PackerTracker.Solution/PackerTracker.Tests/obj/Debug/netcoreapp2.2/PackerTracker.Tests.AssemblyInfoInputs.cache
+/Users/Guest/Desktop/PackerTracker.Solution/PackerTracker.Tests/obj/Debug/netcoreapp2.2/PackerTracker.Tests.AssemblyInfo.cs
